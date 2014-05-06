@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>后台管理登陆入口</title>
+	<hdjs/>
+	<bootstrap/>
+	<js file='__CONTROL_TPL__/js/js.js'/>
+</head>
+<body style="margin:0px; padding:0px">
+<div style="width:auto; height:300px; border:solid 1px #3366FF; position:absolute; margin:50px 50px 50px 50px;">
+<h3 style="text-align:center; background:#33CCFF; color:#000;">管理员登陆</h3>
+	<form action='__METH__' method='post' class='hd-form'>
+	<table class='table1' style=''>
+		<tr>
+			<td class='w100'>账号</td>
+			<td>
+				<input type='text' name='username'/>
+			</td>
+		</tr>
+		<tr>
+			<td>密码</td>
+			<td>
+				<input type='password' name='password'/>
+			</td>
+		</tr>
+		</tr>
+		<tr>
+			<td>验证码</td>
+			<td>
+				<input type='text' name='code'/>
+				<img src='__CONTROL__/code'/>
+				<span id='hd_code'></span>
+			</td>
+		</tr>
+		<tr>
+			<td colspan='2'>
+				<input type='submit' value='登陆' class='btn btn-primary'>
+			</td>
+		</tr>
+	</table>
+	</form>
+    </div>
+</body>
+</html>
