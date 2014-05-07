@@ -39,7 +39,7 @@ class CategoryControl extends AuthControl{
    	 		$category = $this->_db->all();
     			$category = Data::tree($category,'cname');
     			foreach($category as $n=>$v){
-    	    	//将父级栏目添加selected（选中状态)
+    	    	//将父级栏目添加selected（选中状态)这块有问题明天接着改
     				$v['selected']='';
     				if($field['pid']==$v['cid']){
     					$v['selected']=' selected="selected" ';
