@@ -10,7 +10,7 @@
 		HOST = 'http://localhost';
 		ROOT = 'http://localhost/test/cms';
 		WEB = 'http://localhost/test/cms/index.php';
-		URL = 'http://localhost/test/cms/index.php/Admin/login/login';
+		URL = 'http://localhost/test/cms/index.php/admin/Login/login';
 		HDPHP = 'http://localhost/test/hdphp/hdphp';
 		HDPHPDATA = 'http://localhost/test/hdphp/hdphp/Data';
 		HDPHPTPL = 'http://localhost/test/hdphp/hdphp/Lib/Tpl';
@@ -23,6 +23,8 @@
 		CONTROLTPL = 'http://localhost/test/cms/Cms/App/Admin/Tpl/Login';
 		STATIC = 'http://localhost/test/cms/Static';
 		PUBLIC = 'http://localhost/test/cms/Cms/App/Admin/Tpl/Public';
+		HISTORY = 'http://localhost/test/cms/index.php/Category/Category/index';
+		HTTPREFERER = 'http://localhost/test/cms/index.php/Category/Category/index';
 </script>
 	<link href='http://localhost/test/hdphp/hdphp/Extend/Org/bootstrap/css/bootstrap.min.css' rel='stylesheet' media='screen'>
 <script src='http://localhost/test/hdphp/hdphp/Extend/Org/bootstrap/js/bootstrap.min.js'></script>
